@@ -9,7 +9,7 @@ ARCH_ARM_HAVE_VFP               := true
 #
 arch_variant_cflags := \
     -march=armv7-a \
-    -mfloat-abi=softfp \
+    -mfloat-abi=hard \
     -mfpu=vfpv3-d16
 
 arch_variant_ldflags := \

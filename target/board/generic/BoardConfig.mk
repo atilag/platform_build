@@ -44,3 +44,6 @@ BUILD_EMULATOR_OPENGL := true
 # Build and enable the OpenGL ES View renderer. When running on the emulator,
 # the GLES renderer disables itself if host GL acceleration isn't available.
 USE_OPENGL_RENDERER := true
+
+# Set Gecko toolchain
+GECKO_TOOLS_PREFIX = prebuilts/gcc/$(HOST_PREBUILT_TAG)/arm/arm-linux-androideabi-4.9/bin/arm-linux-androideabi-
